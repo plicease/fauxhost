@@ -25,8 +25,8 @@ variable.
 ## TESTS
 
 You can run the tests by using `make test`.  It requires Perl, cpanm,
-(FFI::Platypus)[https://metacpan.org/pod/FFI::Platypus] and
-(Test2::V0)[https://metacpan.org/pod/Test2::V0].  If the Perl modules
+[FFI::Platypus](https://metacpan.org/pod/FFI::Platypus) and
+[Test2::V0](https://metacpan.org/pod/Test2::V0).  If the Perl modules
 aren't installed they will be installed for you.
 
 ## CAVEATS
