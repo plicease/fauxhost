@@ -6,7 +6,7 @@
 % make
 clang -c -O2 -fPIC -o fauxhostname.o fauxhostname.c
 clang -shared -o libfauxhostname.so fauxhostname.o
-% export LD_PRELOAD=`pwd`/libfauxhome.so
+% export LD_PRELOAD=`pwd`/libfauxhostname.so
 % hostname
 faux
 % export FAUXHOSTNAME=foo
